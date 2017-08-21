@@ -1,0 +1,97 @@
+#welcome {
+  height: 100vh;
+  /*background-color: #21324b;*/
+  /*width: 100vw;*/
+  text-align: center;
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.r * {
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.line {
+  height: 1px;
+  background-color: White;
+  opacity: 0.2;
+  width: 400px;
+}
+
+.logo, .title {
+  color: white;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 250px;
+  letter-spacing: 5px;
+}
+
+.logo {
+  opacity: 0.9;
+  display:inline-block;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+#web {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: black;
+}
+
+footer section {
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.bge {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+}
+
+#mobile {
+  background-color: #242321;
+  text-align: center;
+}
+
+.team-membres {
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.member-card {
+  background-color: rgba(255,255,255,0.05);
+  Margin-left: 30px;
+}
+
+.txt-mobile {
+  padding-top: 40px;
+  color: white;
+  font-size: 31px;
+  /*font-weight: bold;*/
+  letter-spacing: 4px;
+}
+
+.txt-web {
+  padding-top: 40px;
+  color: #414244;
+  font-size: 31px;
+  /*font-weight: bold;*/
+  letter-spacing: 4px;
+}
+
+#web img {
+  padding-top: 35px;
+}
